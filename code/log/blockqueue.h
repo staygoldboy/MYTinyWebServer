@@ -119,7 +119,7 @@ bool BlockQueue<T>::pop(T& item, int timeout){
     unique_lock<mutex> locker(mtx_);
     while(deq_.empty())  //如果仓库空了，则等待生产者生产
     {
-        if(condConsumer_.wait_for(locker, chrono::second(timeout)) == cv_status::timeout) //等待timeout秒，如果超时则返回false
+        if(condConsumer_.wait_for(locker, std::chrono::seconds(timeout)) == cv_status::timeout) //等待timeout秒，如果超时则返回false
         {
             return false;
         }

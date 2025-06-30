@@ -78,7 +78,7 @@ void Log::init(int level, const char* path, const char* suffix, int maxQueueCapa
     struct tm *sysTime = localtime(&timer);   //获取本地时间
     struct tm logTime = *sysTime;   //获取本地时间
     char fileName[LOG_NAME_LEN] = {0};    //日志文件名
-    snprintf(fileName, LOG_NAME_LEN - 1, "%s/%04d%02d%02d%s", path_, logTime.tm_year + 1900, logTime.tm_mon + 1, logTime.tm_mday, suffix_);
+    snprintf(fileName, LOG_NAME_LEN - 1, "%s/%04d_%02d_%02d%s", path_, logTime.tm_year + 1900, logTime.tm_mon + 1, logTime.tm_mday, suffix_);
     toDay_ = logTime.tm_mday;
 
     {
@@ -134,7 +134,7 @@ void Log::WriteLog(int level, const char* format, ...)
     {
         unique_lock<mutex> locker(mtx_);
         lineCount_++;
-        int n = snprintf(buff_.BeginWrite(),128, "%04d-%02d-%02d %02d:%02d:%02d.%06ld ",
+        int n = snprintf(buff_.BeginWrite(),128, "%d-%02d-%02d %02d:%02d:%02d.%06ld ",
             logTime.tm_year + 1900, logTime.tm_mon + 1, logTime.tm_mday,
             logTime.tm_hour, logTime.tm_min, logTime.tm_sec, now.tv_usec);
         assert(n > 0);
@@ -165,16 +165,16 @@ void Log::AppendLogLevelTitle(int level){
             buff_.Append("[debug]: ", 9);
             break;
         case 1:
-            buff_.Append("[info]: ", 9);
+            buff_.Append("[info] : ", 9);
             break;
         case 2:
-            buff_.Append("[warn]: ", 9);
+            buff_.Append("[warn] : ", 9);
             break;
         case 3:
             buff_.Append("[error]: ", 9);
             break;
         default:
-            buff_.Append("[info]: ", 9);
+            buff_.Append("[info] : ", 9);
             break;
     }
 }
