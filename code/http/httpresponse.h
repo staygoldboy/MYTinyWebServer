@@ -18,7 +18,7 @@ public:
     ~HttpResponse();
 
     void Init(const string& srcDir, string& path, bool isKeepAlive = false, int code = -1);
-    void MakeResponse(Buffer* buffer);
+    void MakeResponse(Buffer& buffer);
     void UnmapFile();
     char* File();
     size_t FileLen() const;
