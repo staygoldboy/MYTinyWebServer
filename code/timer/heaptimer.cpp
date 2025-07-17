@@ -180,14 +180,22 @@ void HeapTimer::Clear(){
     timerMap_.clear();
 }
 
+
+// 获取下一个定时器的触发时间
 int HeapTimer::GetNextTick(){
+    // 更新定时器
     Tick();
+    // 初始化返回值为-1
     size_t res = -1;
+    // 如果定时器队列不为空
     if(!heap_.empty()){
+        // 计算定时器队列中第一个定时器的触发时间与当前时间的差值
         res = chrono::duration_cast<MS>(heap_.front().expires - Clock::now()).count();
+        // 如果差值为负数，则将差值设为0
         if(res < 0){
             res = 0;
         }
     }
+    // 返回差值
     return res;
 }
