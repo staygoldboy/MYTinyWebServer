@@ -27,9 +27,9 @@ private:
 
     int MAX_CONN_;
 
-    std::queue<MYSQL*> connQue_;
+    std::queue<MYSQL*> connQue_;  // 连接队列
     std::mutex mtx_;
-    sem_t semId_;
+    sem_t semId_;  //信号量
 };
 
 class SqlConnRAII{  

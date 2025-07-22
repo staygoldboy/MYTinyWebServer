@@ -9,7 +9,7 @@
 
 class Epoller{
 public:
-    explicit Epoller(int maxEvent); // explicit 关键字用于禁止隐式类型转换
+    explicit Epoller(int maxEvent = 1024); // explicit 关键字用于禁止隐式类型转换
     ~Epoller();
 
     bool AddFd(int fd, uint32_t events);
