@@ -103,6 +103,7 @@ ssize_t HttpConn::Write(int* saveErrno){
             writeBuffer_.Retrieve(len);    //将iov_[0]中的数据从writeBuffer_中移除
         }
     }while(isET || ToWriteBytes() > 10240);
+    return len;
 }
 
 // 处理连接
