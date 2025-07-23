@@ -1,6 +1,11 @@
 #include "httpconn.h"
 using namespace std;
 
+
+const char* HttpConn::srcDir;
+std::atomic<int> HttpConn::UserCount;
+bool HttpConn::isET;
+
 HttpConn::HttpConn(){
     fd_ = -1;
     addr_ = {0};
@@ -117,11 +122,11 @@ bool HttpConn::Process(){
     // 如果request_解析成功，初始化response_
     else if(request_.parse(readBuffer_)){
         LOG_DEBUG("%s",request_.path().c_str());
-        response_.Init(SrcDir, request_.path(), request_.IsKeepAlive(), 200);
+        response_.Init(srcDir, request_.path(), request_.IsKeepAlive(), 200);
     }
     // 如果request_解析失败，初始化response_，状态码为400
     else{
-        response_.Init(SrcDir, request_.path(), false, 400);
+        response_.Init(srcDir, request_.path(), false, 400);
     }
 
     // 生成response_的响应

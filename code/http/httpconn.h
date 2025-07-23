@@ -41,7 +41,7 @@ public:
     }
 
     static bool isET;  //是否为ET模式
-    static const char* SrcDir;  //源文件目录
+    static const char* srcDir;  //源文件目录
     static std::atomic<int> UserCount;  //用户连接数,使用原子操作
 
 private:
