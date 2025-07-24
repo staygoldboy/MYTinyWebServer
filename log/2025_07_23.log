@@ -1,0 +1,287 @@
+2025-07-23 20:35:14.788094 [info] : ============== Server Init ==============
+2025-07-23 20:35:14.788110 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 20:35:14.788115 [info] : LogSys level: 1
+2025-07-23 20:35:14.788120 [info] : srcDir: (null)
+2025-07-23 20:35:14.788124 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 20:35:14.797964 [info] : Mysql connect success!
+2025-07-23 20:35:14.798701 [info] : Mysql connect success!
+2025-07-23 20:35:14.799684 [info] : Mysql connect success!
+2025-07-23 20:35:14.800481 [info] : Mysql connect success!
+2025-07-23 20:35:14.801566 [info] : Mysql connect success!
+2025-07-23 20:35:14.802339 [info] : Mysql connect success!
+2025-07-23 20:35:14.802790 [info] : Mysql connect success!
+2025-07-23 20:35:14.803367 [info] : Mysql connect success!
+2025-07-23 20:35:14.803913 [info] : Mysql connect success!
+2025-07-23 20:35:14.804559 [info] : Mysql connect success!
+2025-07-23 20:35:14.805201 [info] : Mysql connect success!
+2025-07-23 20:35:14.805678 [info] : Mysql connect success!
+2025-07-23 20:35:14.805712 [info] : Server port:9006
+2025-07-23 20:39:26.336077 [info] : ============== Server Init ==============
+2025-07-23 20:39:26.336088 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 20:39:26.336178 [info] : LogSys level: 1
+2025-07-23 20:39:26.336189 [info] : srcDir: (null)
+2025-07-23 20:39:26.336193 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 20:39:26.340132 [info] : Mysql connect success!
+2025-07-23 20:39:26.341123 [info] : Mysql connect success!
+2025-07-23 20:39:26.341929 [info] : Mysql connect success!
+2025-07-23 20:39:26.342770 [info] : Mysql connect success!
+2025-07-23 20:39:26.343833 [info] : Mysql connect success!
+2025-07-23 20:39:26.344891 [info] : Mysql connect success!
+2025-07-23 20:39:26.345706 [info] : Mysql connect success!
+2025-07-23 20:39:26.346495 [info] : Mysql connect success!
+2025-07-23 20:39:26.347177 [info] : Mysql connect success!
+2025-07-23 20:39:26.347792 [info] : Mysql connect success!
+2025-07-23 20:39:26.348265 [info] : Mysql connect success!
+2025-07-23 20:39:26.348819 [info] : Mysql connect success!
+2025-07-23 20:39:26.348844 [error]: Bind Port:9006 error!
+2025-07-23 20:40:02.184203 [info] : ============== Server Init ==============
+2025-07-23 20:40:02.184217 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 20:40:02.184222 [info] : LogSys level: 1
+2025-07-23 20:40:02.184227 [info] : srcDir: (null)
+2025-07-23 20:40:02.184231 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 20:40:02.187383 [info] : Mysql connect success!
+2025-07-23 20:40:02.187910 [info] : Mysql connect success!
+2025-07-23 20:40:02.188237 [info] : Mysql connect success!
+2025-07-23 20:40:02.188554 [info] : Mysql connect success!
+2025-07-23 20:40:02.188972 [info] : Mysql connect success!
+2025-07-23 20:40:02.189491 [info] : Mysql connect success!
+2025-07-23 20:40:02.190238 [info] : Mysql connect success!
+2025-07-23 20:40:02.190977 [info] : Mysql connect success!
+2025-07-23 20:40:02.191576 [info] : Mysql connect success!
+2025-07-23 20:40:02.191968 [info] : Mysql connect success!
+2025-07-23 20:40:02.192304 [info] : Mysql connect success!
+2025-07-23 20:40:02.192835 [info] : Mysql connect success!
+2025-07-23 20:40:02.192871 [info] : Server port:9006
+2025-07-23 20:48:07.878124 [info] : ============== Server Init ==============
+2025-07-23 20:48:07.878138 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 20:48:07.878143 [info] : LogSys level: 1
+2025-07-23 20:48:07.878211 [info] : srcDir: (null)
+2025-07-23 20:48:07.878219 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 20:48:07.881546 [info] : Mysql connect success!
+2025-07-23 20:48:07.881997 [info] : Mysql connect success!
+2025-07-23 20:48:07.882308 [info] : Mysql connect success!
+2025-07-23 20:48:07.882711 [info] : Mysql connect success!
+2025-07-23 20:48:07.883164 [info] : Mysql connect success!
+2025-07-23 20:48:07.883819 [info] : Mysql connect success!
+2025-07-23 20:48:07.884351 [info] : Mysql connect success!
+2025-07-23 20:48:07.884941 [info] : Mysql connect success!
+2025-07-23 20:48:07.885494 [info] : Mysql connect success!
+2025-07-23 20:48:07.886006 [info] : Mysql connect success!
+2025-07-23 20:48:07.886566 [info] : Mysql connect success!
+2025-07-23 20:48:07.887463 [info] : Mysql connect success!
+2025-07-23 20:48:07.887548 [error]: Bind Port:9006 error!
+2025-07-23 20:48:24.897302 [info] : ============== Server Init ==============
+2025-07-23 20:48:24.897320 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-23 20:48:24.897326 [info] : LogSys level: 1
+2025-07-23 20:48:24.897423 [info] : srcDir: (null)
+2025-07-23 20:48:24.897436 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 20:48:24.901245 [info] : Mysql connect success!
+2025-07-23 20:48:24.901768 [info] : Mysql connect success!
+2025-07-23 20:48:24.902083 [info] : Mysql connect success!
+2025-07-23 20:48:24.902433 [info] : Mysql connect success!
+2025-07-23 20:48:24.903090 [info] : Mysql connect success!
+2025-07-23 20:48:24.903672 [info] : Mysql connect success!
+2025-07-23 20:48:24.904585 [info] : Mysql connect success!
+2025-07-23 20:48:24.905239 [info] : Mysql connect success!
+2025-07-23 20:48:24.905779 [info] : Mysql connect success!
+2025-07-23 20:48:24.906302 [info] : Mysql connect success!
+2025-07-23 20:48:24.906736 [info] : Mysql connect success!
+2025-07-23 20:48:24.907212 [info] : Mysql connect success!
+2025-07-23 20:48:24.907255 [info] : Server port:9006
+2025-07-23 21:06:43.238884 [info] : ============== Server Init ==============
+2025-07-23 21:06:43.238899 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-23 21:06:43.238904 [info] : LogSys level: 1
+2025-07-23 21:06:43.238909 [info] : srcDir: (null)
+2025-07-23 21:06:43.238913 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:06:43.242975 [info] : Mysql connect success!
+2025-07-23 21:06:43.243856 [info] : Mysql connect success!
+2025-07-23 21:06:43.244758 [info] : Mysql connect success!
+2025-07-23 21:06:43.245677 [info] : Mysql connect success!
+2025-07-23 21:06:43.246476 [info] : Mysql connect success!
+2025-07-23 21:06:43.247126 [info] : Mysql connect success!
+2025-07-23 21:06:43.247670 [info] : Mysql connect success!
+2025-07-23 21:06:43.248211 [info] : Mysql connect success!
+2025-07-23 21:06:43.248883 [info] : Mysql connect success!
+2025-07-23 21:06:43.249477 [info] : Mysql connect success!
+2025-07-23 21:06:43.250081 [info] : Mysql connect success!
+2025-07-23 21:06:43.250487 [info] : Mysql connect success!
+2025-07-23 21:06:43.250510 [error]: Bind Port:80 error!
+2025-07-23 21:07:02.640225 [info] : ============== Server Init ==============
+2025-07-23 21:07:02.640241 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:07:02.640246 [info] : LogSys level: 1
+2025-07-23 21:07:02.640326 [info] : srcDir: (null)
+2025-07-23 21:07:02.640337 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:07:02.644185 [info] : Mysql connect success!
+2025-07-23 21:07:02.644906 [info] : Mysql connect success!
+2025-07-23 21:07:02.645469 [info] : Mysql connect success!
+2025-07-23 21:07:02.645937 [info] : Mysql connect success!
+2025-07-23 21:07:02.646582 [info] : Mysql connect success!
+2025-07-23 21:07:02.647090 [info] : Mysql connect success!
+2025-07-23 21:07:02.647568 [info] : Mysql connect success!
+2025-07-23 21:07:02.647941 [info] : Mysql connect success!
+2025-07-23 21:07:02.648269 [info] : Mysql connect success!
+2025-07-23 21:07:02.648748 [info] : Mysql connect success!
+2025-07-23 21:07:02.648994 [info] : Mysql connect success!
+2025-07-23 21:07:02.649354 [info] : Mysql connect success!
+2025-07-23 21:07:08.873224 [info] : ============== Server Init ==============
+2025-07-23 21:07:08.873242 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:07:08.873248 [info] : LogSys level: 1
+2025-07-23 21:07:08.873254 [info] : srcDir: (null)
+2025-07-23 21:07:08.873259 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:07:08.878036 [info] : Mysql connect success!
+2025-07-23 21:07:08.878728 [info] : Mysql connect success!
+2025-07-23 21:07:08.879280 [info] : Mysql connect success!
+2025-07-23 21:07:08.879775 [info] : Mysql connect success!
+2025-07-23 21:07:08.880299 [info] : Mysql connect success!
+2025-07-23 21:07:08.880773 [info] : Mysql connect success!
+2025-07-23 21:07:08.881553 [info] : Mysql connect success!
+2025-07-23 21:07:08.882105 [info] : Mysql connect success!
+2025-07-23 21:07:08.882619 [info] : Mysql connect success!
+2025-07-23 21:07:08.883058 [info] : Mysql connect success!
+2025-07-23 21:07:08.883536 [info] : Mysql connect success!
+2025-07-23 21:07:08.883996 [info] : Mysql connect success!
+2025-07-23 21:07:08.884020 [error]: Bind Port:80 error!
+2025-07-23 21:07:19.167363 [info] : ============== Server Init ==============
+2025-07-23 21:07:19.167374 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-23 21:07:19.167379 [info] : LogSys level: 1
+2025-07-23 21:07:19.167384 [info] : srcDir: (null)
+2025-07-23 21:07:19.167388 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:07:19.171361 [info] : Mysql connect success!
+2025-07-23 21:07:19.172198 [info] : Mysql connect success!
+2025-07-23 21:07:19.172942 [info] : Mysql connect success!
+2025-07-23 21:07:19.173613 [info] : Mysql connect success!
+2025-07-23 21:07:19.174270 [info] : Mysql connect success!
+2025-07-23 21:07:19.174787 [info] : Mysql connect success!
+2025-07-23 21:07:19.175313 [info] : Mysql connect success!
+2025-07-23 21:07:19.175821 [info] : Mysql connect success!
+2025-07-23 21:07:19.176255 [info] : Mysql connect success!
+2025-07-23 21:07:19.176731 [info] : Mysql connect success!
+2025-07-23 21:07:19.177304 [info] : Mysql connect success!
+2025-07-23 21:07:19.177771 [info] : Mysql connect success!
+2025-07-23 21:07:19.177792 [error]: Bind Port:80 error!
+2025-07-23 21:10:24.178031 [info] : ============== Server Init ==============
+2025-07-23 21:10:24.178045 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-23 21:10:24.178050 [info] : LogSys level: 1
+2025-07-23 21:10:24.178115 [info] : srcDir: (null)
+2025-07-23 21:10:24.178122 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:10:24.181842 [info] : Mysql connect success!
+2025-07-23 21:10:24.182537 [info] : Mysql connect success!
+2025-07-23 21:10:24.183282 [info] : Mysql connect success!
+2025-07-23 21:10:24.183972 [info] : Mysql connect success!
+2025-07-23 21:10:24.184453 [info] : Mysql connect success!
+2025-07-23 21:10:24.184929 [info] : Mysql connect success!
+2025-07-23 21:10:24.185497 [info] : Mysql connect success!
+2025-07-23 21:10:24.185808 [info] : Mysql connect success!
+2025-07-23 21:10:24.186324 [info] : Mysql connect success!
+2025-07-23 21:10:24.186733 [info] : Mysql connect success!
+2025-07-23 21:10:24.187185 [info] : Mysql connect success!
+2025-07-23 21:10:24.187446 [info] : Mysql connect success!
+2025-07-23 21:10:24.187473 [error]: Bind Port:80 error!
+2025-07-23 21:11:03.611215 [info] : ============== Server Init ==============
+2025-07-23 21:11:03.611232 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:11:03.611239 [info] : LogSys level: 1
+2025-07-23 21:11:03.611244 [info] : srcDir: (null)
+2025-07-23 21:11:03.611412 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:11:03.616169 [info] : Mysql connect success!
+2025-07-23 21:11:03.616978 [info] : Mysql connect success!
+2025-07-23 21:11:03.617707 [info] : Mysql connect success!
+2025-07-23 21:11:03.618514 [info] : Mysql connect success!
+2025-07-23 21:11:03.619171 [info] : Mysql connect success!
+2025-07-23 21:11:03.619742 [info] : Mysql connect success!
+2025-07-23 21:11:03.620336 [info] : Mysql connect success!
+2025-07-23 21:11:03.620937 [info] : Mysql connect success!
+2025-07-23 21:11:03.621355 [info] : Mysql connect success!
+2025-07-23 21:11:03.621947 [info] : Mysql connect success!
+2025-07-23 21:11:03.622846 [info] : Mysql connect success!
+2025-07-23 21:11:03.623336 [info] : Mysql connect success!
+2025-07-23 21:11:03.623414 [error]: Bind Port:81 error!
+2025-07-23 21:11:08.738405 [info] : ============== Server Init ==============
+2025-07-23 21:11:08.738419 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:11:08.738511 [info] : LogSys level: 1
+2025-07-23 21:11:08.738524 [info] : srcDir: (null)
+2025-07-23 21:11:08.738528 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:11:08.742524 [info] : Mysql connect success!
+2025-07-23 21:11:08.743166 [info] : Mysql connect success!
+2025-07-23 21:11:08.744045 [info] : Mysql connect success!
+2025-07-23 21:11:08.744835 [info] : Mysql connect success!
+2025-07-23 21:11:08.745246 [info] : Mysql connect success!
+2025-07-23 21:11:08.745519 [info] : Mysql connect success!
+2025-07-23 21:11:08.746052 [info] : Mysql connect success!
+2025-07-23 21:11:08.746493 [info] : Mysql connect success!
+2025-07-23 21:11:08.746905 [info] : Mysql connect success!
+2025-07-23 21:11:08.747426 [info] : Mysql connect success!
+2025-07-23 21:11:08.747677 [info] : Mysql connect success!
+2025-07-23 21:11:08.747945 [info] : Mysql connect success!
+2025-07-23 21:11:08.747966 [error]: Bind Port:81 error!
+2025-07-23 21:13:46.667869 [info] : ============== Server Init ==============
+2025-07-23 21:13:46.667883 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:13:46.667888 [info] : LogSys level: 1
+2025-07-23 21:13:46.667892 [info] : srcDir: (null)
+2025-07-23 21:13:46.667896 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:13:46.672323 [info] : Mysql connect success!
+2025-07-23 21:13:46.672985 [info] : Mysql connect success!
+2025-07-23 21:13:46.673500 [info] : Mysql connect success!
+2025-07-23 21:13:46.674011 [info] : Mysql connect success!
+2025-07-23 21:13:46.674593 [info] : Mysql connect success!
+2025-07-23 21:13:46.675071 [info] : Mysql connect success!
+2025-07-23 21:13:46.675583 [info] : Mysql connect success!
+2025-07-23 21:13:46.676116 [info] : Mysql connect success!
+2025-07-23 21:13:46.676517 [info] : Mysql connect success!
+2025-07-23 21:13:46.677031 [info] : Mysql connect success!
+2025-07-23 21:13:46.677528 [info] : Mysql connect success!
+2025-07-23 21:13:46.678208 [info] : Mysql connect success!
+2025-07-23 21:13:46.678286 [error]: Bind Port:81 error!
+2025-07-23 21:15:04.531833 [info] : ============== Server Init ==============
+2025-07-23 21:15:04.531849 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:15:04.531854 [info] : LogSys level: 1
+2025-07-23 21:15:04.531859 [info] : srcDir: (null)
+2025-07-23 21:15:04.531863 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:15:04.535710 [info] : Mysql connect success!
+2025-07-23 21:15:04.536551 [info] : Mysql connect success!
+2025-07-23 21:15:04.537160 [info] : Mysql connect success!
+2025-07-23 21:15:04.537689 [info] : Mysql connect success!
+2025-07-23 21:15:04.538233 [info] : Mysql connect success!
+2025-07-23 21:15:04.538590 [info] : Mysql connect success!
+2025-07-23 21:15:04.538999 [info] : Mysql connect success!
+2025-07-23 21:15:04.539444 [info] : Mysql connect success!
+2025-07-23 21:15:04.539873 [info] : Mysql connect success!
+2025-07-23 21:15:04.540429 [info] : Mysql connect success!
+2025-07-23 21:15:04.541254 [info] : Mysql connect success!
+2025-07-23 21:15:04.541952 [info] : Mysql connect success!
+2025-07-23 21:15:04.542040 [info] : Server port:9006
+2025-07-23 21:16:11.028798 [info] : ============== Server Init ==============
+2025-07-23 21:16:11.028812 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-23 21:16:11.028818 [info] : LogSys level: 1
+2025-07-23 21:16:11.028822 [info] : srcDir: (null)
+2025-07-23 21:16:11.028826 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:16:11.032745 [info] : Mysql connect success!
+2025-07-23 21:16:11.033709 [info] : Mysql connect success!
+2025-07-23 21:16:11.034480 [info] : Mysql connect success!
+2025-07-23 21:16:11.035084 [info] : Mysql connect success!
+2025-07-23 21:16:11.035749 [info] : Mysql connect success!
+2025-07-23 21:16:11.036298 [info] : Mysql connect success!
+2025-07-23 21:16:11.036752 [info] : Mysql connect success!
+2025-07-23 21:16:11.037307 [info] : Mysql connect success!
+2025-07-23 21:16:11.037789 [info] : Mysql connect success!
+2025-07-23 21:16:11.038319 [info] : Mysql connect success!
+2025-07-23 21:16:11.038854 [info] : Mysql connect success!
+2025-07-23 21:16:11.039429 [info] : Mysql connect success!
+2025-07-23 21:16:11.039469 [info] : Server port:9007
+2025-07-23 21:30:09.196829 [info] : ============== Server Init ==============
+2025-07-23 21:30:09.196847 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-23 21:30:09.196853 [info] : LogSys level: 1
+2025-07-23 21:30:09.196859 [info] : srcDir: (null)
+2025-07-23 21:30:09.196864 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-23 21:30:09.201568 [info] : Mysql connect success!
+2025-07-23 21:30:09.202572 [info] : Mysql connect success!
+2025-07-23 21:30:09.203308 [info] : Mysql connect success!
+2025-07-23 21:30:09.203922 [info] : Mysql connect success!
+2025-07-23 21:30:09.204505 [info] : Mysql connect success!
+2025-07-23 21:30:09.205092 [info] : Mysql connect success!
+2025-07-23 21:30:09.205713 [info] : Mysql connect success!
+2025-07-23 21:30:09.206289 [info] : Mysql connect success!
+2025-07-23 21:30:09.206888 [info] : Mysql connect success!
+2025-07-23 21:30:09.207382 [info] : Mysql connect success!
+2025-07-23 21:30:09.207912 [info] : Mysql connect success!
+2025-07-23 21:30:09.208453 [info] : Mysql connect success!
+2025-07-23 21:30:09.208498 [info] : Server port:9006

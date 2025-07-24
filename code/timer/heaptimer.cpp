@@ -135,6 +135,9 @@ void HeapTimer::Add(int id, int timeout, const TimeoutCallback& cb){
 void HeapTimer::DoWork(int id){
     // 断言heap_不为空且timerMap_中包含id
     assert(!heap_.empty() && timerMap_.find(id) != timerMap_.end());
+    if(heap_.empty() || timerMap_.find(id) == timerMap_.end()){
+        return;
+    }
     // 获取id对应的定时器在heap_中的位置
     size_t i = timerMap_[id];
     // 获取对应的定时器节点

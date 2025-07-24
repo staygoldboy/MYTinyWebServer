@@ -61,7 +61,7 @@ const char* HttpConn::GetIP() const{
 // 获取端口号
 int HttpConn::GetPort() const{
     // 返回addr_中的sin_port
-    return ntohs(addr_.sin_port);
+    return addr_.sin_port;
 }
 
 // 从文件描述符中读取数据，存储到readBuffer_中

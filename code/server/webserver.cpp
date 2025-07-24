@@ -7,9 +7,8 @@ WebServer::WebServer(
     int port, int trigMode, int timeoutMS, 
     int sqlPort, const char* sqlUser, const char* sqlPwd, const char* sqlDBName,   
     int connPoolNum, int threadNum, 
-    bool openLog, int logLevel, int logQueueSize   
-): port_(port), timeoutMS_(timeoutMS), isClose_(false), timer_(new HeapTimer()), threadPool_(new ThreadPool(threadNum)), epoller_(new Epoller()) {
-
+    bool openLog, int logLevel, int logQueueSize): port_(port), timeoutMS_(timeoutMS), isClose_(false), timer_(new HeapTimer()), threadPool_(new ThreadPool(threadNum)), epoller_(new Epoller()) 
+{
     // 如果开启日志
     if(openLog){
         // 初始化日志系统
@@ -29,10 +28,10 @@ WebServer::WebServer(
     }
 
     // 获取当前路径
-    srcDir_ = getcwd(NULL, 256); // getcwd(NULL, 256) 获取当前路径, 256为缓冲区大小
+    srcDir_ = getcwd(NULL, 0); // getcwd(NULL, 256) 获取当前路径, 256为缓冲区大小
     assert(srcDir_);
     // 将srcDir_与"/resources/"拼接
-    strcat(srcDir_, "/resources/");  // strcat(srcDir_, "/resources/") 将srcDir_与"/resources/"拼接
+    strcat(srcDir_, "/resources/"); // strcat(srcDir_, "/resources/") 将srcDir_与"/resources/"拼接
 
     // 设置HttpConn的静态成员变量SrcDir为srcDir_
     HttpConn::SrcDir = srcDir_;
@@ -119,10 +118,10 @@ void WebServer::CloseConn_(HttpConn* client){
     assert(client);
     // 打印日志，显示客户端的文件描述符
     LOG_INFO("Client[%d] quit!", client->GetFd());
-    // 关闭连接
-    client->Close();
     // 将连接从epoller中移除
     epoller_->DelFd(client->GetFd());
+    // 关闭连接
+    client->Close();
 }
 
 // 添加客户端
@@ -148,7 +147,7 @@ void WebServer::DealListen_(){
     // 使用do-while循环，直到listenEvent_与EPOLLET相与的结果为0
     do{
         // 调用accept函数，接受客户端连接，将客户端的文件描述符存储在fd中
-        int fd = accept(listenFd_, (struct sockaddr*)&addr, &len);
+        int fd = accept(listenFd_, (struct sockaddr *)&addr, &len);
         // 如果fd小于等于0，表示接受连接失败，直接返回
         if(fd <= 0) 
         {
@@ -262,8 +261,9 @@ bool WebServer::InitSocket_(){
     int ret = 0;
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;  // 使用IPv4地址
-    addr.sin_port = htons(port_);  // 设置端口号,htons将主机字节序转换为网络字节序
     addr.sin_addr.s_addr = htonl(INADDR_ANY);  // 设置IP地址为任意地址,监听所有可用网络接口
+    addr.sin_port = htons(port_);  // 设置端口号,htons将主机字节序转换为网络字节序
+    
 
     // 创建套接字
     listenFd_ = socket(AF_INET, SOCK_STREAM, 0);  // 创建套接字,SOCK_STREAM表示使用TCP协议
@@ -284,7 +284,7 @@ bool WebServer::InitSocket_(){
     }
 
     //绑定套接字
-    ret = bind(listenFd_, (struct sockaddr*)&addr, sizeof(addr));  // 绑定套接字
+    ret = bind(listenFd_, (struct sockaddr *)&addr, sizeof(addr));  // 绑定套接字
     if(ret < 0)
     {
         LOG_ERROR("Bind Port:%d error!", port_);
@@ -300,7 +300,7 @@ bool WebServer::InitSocket_(){
         close(listenFd_);
         return false;
     }
-    ret = epoller_->AddFd(listenFd_, listenEvent_ | EPOLLET);  // 将监听套接字添加到epoll中，监听可读事件
+    ret = epoller_->AddFd(listenFd_, listenEvent_ | EPOLLIN);  // 将监听套接字添加到epoll中，监听可读事件
     if(ret == 0)
     {
         LOG_ERROR("Add listen error!");

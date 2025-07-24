@@ -51,6 +51,7 @@ bool HttpRequest::parse(Buffer& buff){
             break;
         case BODY:
             ParseBody(line);
+            break;
         default:
             break;
         }
@@ -127,6 +128,7 @@ void HttpRequest::ParsePost() {
         if(DEFAULT_HTML_TAG.count(path_))  //如果请求路径在为登录/注册
         {
             int tag = DEFAULT_HTML_TAG.find(path_)->second;
+            LOG_DEBUG("Tag:%d", tag);
             if(tag == 0 || tag == 1)
             {
                 bool isLogin = (tag == 1);
@@ -212,7 +214,14 @@ bool HttpRequest::UserVerify(const string& name, const string& pwd, bool isLogin
     }
     LOG_INFO("Verify name = %s, pwd = %s", name.c_str(), pwd.c_str());
     MYSQL* sql;
+    LOG_INFO("开始获取数据库连接");
     SqlConnRAII(SqlConnPool::Instance(),&sql);
+    LOG_INFO("获取数据库连接完成,sql指针: %p", sql);
+    if(sql == nullptr) {
+        LOG_ERROR("数据库连接获取失败");
+        return false;
+    }
+    LOG_INFO("数据库连接验证成功");
     assert(sql);
 
     bool flag = false;
@@ -227,6 +236,7 @@ bool HttpRequest::UserVerify(const string& name, const string& pwd, bool isLogin
 
     if(mysql_query(sql, order))  //执行查询语句，如果失败，则返回非零值
     {
+        LOG_ERROR("SQL查询执行失败: %s", mysql_error(sql));
         mysql_free_result(res_ptr);  //释放结果集
         LOG_ERROR("Query Error: %s", mysql_error(sql));
         return false;
@@ -251,6 +261,11 @@ bool HttpRequest::UserVerify(const string& name, const string& pwd, bool isLogin
                 LOG_INFO("Password is not correct");
             }
         }
+        else
+        {
+            flag = false;
+            LOG_INFO("User already exists");
+        }
 
     }
     mysql_free_result(res_ptr);  //释放结果集
@@ -263,7 +278,7 @@ bool HttpRequest::UserVerify(const string& name, const string& pwd, bool isLogin
         if(mysql_query(sql, order))
         {
             LOG_ERROR("Insert Error: %s", mysql_error(sql));
-            return false;
+            flag = false;
         }
         else
         {

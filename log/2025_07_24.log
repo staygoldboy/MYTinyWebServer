@@ -1,0 +1,341 @@
+2025-07-24 10:45:25.515853 [info] : ============== Server Init ==============
+2025-07-24 10:45:25.515867 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 10:45:25.515872 [info] : LogSys level: 1
+2025-07-24 10:45:25.515876 [info] : srcDir: (null)
+2025-07-24 10:45:25.515880 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 10:45:25.518957 [info] : Mysql connect success!
+2025-07-24 10:45:25.519234 [info] : Mysql connect success!
+2025-07-24 10:45:25.519547 [info] : Mysql connect success!
+2025-07-24 10:45:25.519855 [info] : Mysql connect success!
+2025-07-24 10:45:25.520342 [info] : Mysql connect success!
+2025-07-24 10:45:25.521084 [info] : Mysql connect success!
+2025-07-24 10:45:25.521737 [info] : Mysql connect success!
+2025-07-24 10:45:25.522159 [info] : Mysql connect success!
+2025-07-24 10:45:25.522401 [info] : Mysql connect success!
+2025-07-24 10:45:25.522660 [info] : Mysql connect success!
+2025-07-24 10:45:25.522936 [info] : Mysql connect success!
+2025-07-24 10:45:25.523191 [info] : Mysql connect success!
+2025-07-24 10:45:25.523227 [info] : Server port:9006
+2025-07-24 10:46:12.855142 [info] : ============== Server Init ==============
+2025-07-24 10:46:12.855159 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 10:46:12.855166 [info] : LogSys level: 1
+2025-07-24 10:46:12.855171 [info] : srcDir: (null)
+2025-07-24 10:46:12.855176 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 10:46:12.860208 [info] : Mysql connect success!
+2025-07-24 10:46:12.861168 [info] : Mysql connect success!
+2025-07-24 10:46:12.862017 [info] : Mysql connect success!
+2025-07-24 10:46:12.862960 [info] : Mysql connect success!
+2025-07-24 10:46:12.863832 [info] : Mysql connect success!
+2025-07-24 10:46:12.864381 [info] : Mysql connect success!
+2025-07-24 10:46:12.864991 [info] : Mysql connect success!
+2025-07-24 10:46:12.865690 [info] : Mysql connect success!
+2025-07-24 10:46:12.866321 [info] : Mysql connect success!
+2025-07-24 10:46:12.866983 [info] : Mysql connect success!
+2025-07-24 10:46:12.867722 [info] : Mysql connect success!
+2025-07-24 10:46:12.868301 [info] : Mysql connect success!
+2025-07-24 10:46:12.868370 [info] : Server port:9006
+2025-07-24 10:58:29.862479 [info] : ============== Server Init ==============
+2025-07-24 10:58:29.862495 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-07-24 10:58:29.862501 [info] : LogSys level: 1
+2025-07-24 10:58:29.862505 [info] : srcDir: (null)
+2025-07-24 10:58:29.862509 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 10:58:29.866240 [info] : Mysql connect success!
+2025-07-24 10:58:29.866960 [info] : Mysql connect success!
+2025-07-24 10:58:29.867606 [info] : Mysql connect success!
+2025-07-24 10:58:29.868130 [info] : Mysql connect success!
+2025-07-24 10:58:29.868649 [info] : Mysql connect success!
+2025-07-24 10:58:29.869201 [info] : Mysql connect success!
+2025-07-24 10:58:29.870000 [info] : Mysql connect success!
+2025-07-24 10:58:29.870647 [info] : Mysql connect success!
+2025-07-24 10:58:29.871176 [info] : Mysql connect success!
+2025-07-24 10:58:29.871665 [info] : Mysql connect success!
+2025-07-24 10:58:29.871929 [info] : Mysql connect success!
+2025-07-24 10:58:29.872360 [info] : Mysql connect success!
+2025-07-24 11:03:17.630258 [info] : ============== Server Init ==============
+2025-07-24 11:03:17.630275 [info] : Listen Mode: ET, OpenConn Mode: ET
+2025-07-24 11:03:17.630282 [info] : LogSys level: 1
+2025-07-24 11:03:17.630287 [info] : srcDir: (null)
+2025-07-24 11:03:17.630292 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:03:17.634893 [info] : Mysql connect success!
+2025-07-24 11:03:17.635661 [info] : Mysql connect success!
+2025-07-24 11:03:17.636467 [info] : Mysql connect success!
+2025-07-24 11:03:17.637134 [info] : Mysql connect success!
+2025-07-24 11:03:17.637715 [info] : Mysql connect success!
+2025-07-24 11:03:17.638241 [info] : Mysql connect success!
+2025-07-24 11:03:17.638746 [info] : Mysql connect success!
+2025-07-24 11:03:17.639313 [info] : Mysql connect success!
+2025-07-24 11:03:17.639688 [info] : Mysql connect success!
+2025-07-24 11:03:17.640261 [info] : Mysql connect success!
+2025-07-24 11:03:17.641056 [info] : Mysql connect success!
+2025-07-24 11:03:17.641532 [info] : Mysql connect success!
+2025-07-24 11:25:48.087679 [info] : ============== Server Init ==============
+2025-07-24 11:25:48.087694 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 11:25:48.087699 [info] : LogSys level: 0
+2025-07-24 11:25:48.087703 [info] : srcDir: (null)
+2025-07-24 11:25:48.087707 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:25:48.091578 [info] : Mysql connect success!
+2025-07-24 11:25:48.092504 [info] : Mysql connect success!
+2025-07-24 11:25:48.093228 [info] : Mysql connect success!
+2025-07-24 11:25:48.093777 [info] : Mysql connect success!
+2025-07-24 11:25:48.094259 [info] : Mysql connect success!
+2025-07-24 11:25:48.094725 [info] : Mysql connect success!
+2025-07-24 11:25:48.095241 [info] : Mysql connect success!
+2025-07-24 11:25:48.095727 [info] : Mysql connect success!
+2025-07-24 11:25:48.096250 [info] : Mysql connect success!
+2025-07-24 11:25:48.096718 [info] : Mysql connect success!
+2025-07-24 11:25:48.097154 [info] : Mysql connect success!
+2025-07-24 11:25:48.097551 [info] : Mysql connect success!
+2025-07-24 11:25:48.097588 [info] : Server port:9006
+2025-07-24 11:26:09.991578 [info] : ============== Server Init ==============
+2025-07-24 11:26:09.991592 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 11:26:09.991597 [info] : LogSys level: 0
+2025-07-24 11:26:09.991666 [info] : srcDir: (null)
+2025-07-24 11:26:09.991689 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:26:09.995383 [info] : Mysql connect success!
+2025-07-24 11:26:09.995952 [info] : Mysql connect success!
+2025-07-24 11:26:09.996502 [info] : Mysql connect success!
+2025-07-24 11:26:09.997281 [info] : Mysql connect success!
+2025-07-24 11:26:09.997740 [info] : Mysql connect success!
+2025-07-24 11:26:09.998261 [info] : Mysql connect success!
+2025-07-24 11:26:09.998725 [info] : Mysql connect success!
+2025-07-24 11:26:09.999210 [info] : Mysql connect success!
+2025-07-24 11:26:09.999671 [info] : Mysql connect success!
+2025-07-24 11:26:10.000134 [info] : Mysql connect success!
+2025-07-24 11:26:10.000587 [info] : Mysql connect success!
+2025-07-24 11:27:08.897189 [info] : ============== Server Init ==============
+2025-07-24 11:27:08.897204 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 11:27:08.897209 [info] : LogSys level: 0
+2025-07-24 11:27:08.897213 [info] : srcDir: (null)
+2025-07-24 11:27:08.897218 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:27:08.901137 [info] : Mysql connect success!
+2025-07-24 11:27:08.901805 [info] : Mysql connect success!
+2025-07-24 11:27:08.902442 [info] : Mysql connect success!
+2025-07-24 11:27:08.902995 [info] : Mysql connect success!
+2025-07-24 11:27:08.903812 [info] : Mysql connect success!
+2025-07-24 11:27:08.904524 [info] : Mysql connect success!
+2025-07-24 11:27:08.905186 [info] : Mysql connect success!
+2025-07-24 11:27:08.905738 [info] : Mysql connect success!
+2025-07-24 11:27:08.906245 [info] : Mysql connect success!
+2025-07-24 11:27:08.906826 [info] : Mysql connect success!
+2025-07-24 11:27:08.907403 [info] : Mysql connect success!
+2025-07-24 11:27:08.908056 [info] : Mysql connect success!
+2025-07-24 11:27:08.908111 [info] : Server port:9006
+2025-07-24 11:29:02.297287 [info] : ============== Server Init ==============
+2025-07-24 11:29:02.297291 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-24 11:29:02.297293 [info] : LogSys level: 0
+2025-07-24 11:29:02.297294 [info] : srcDir: (null)
+2025-07-24 11:29:02.297296 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:29:02.298586 [info] : Mysql connect success!
+2025-07-24 11:29:02.299013 [info] : Mysql connect success!
+2025-07-24 11:29:02.299692 [info] : Mysql connect success!
+2025-07-24 11:29:02.300639 [info] : Mysql connect success!
+2025-07-24 11:29:02.301246 [info] : Mysql connect success!
+2025-07-24 11:29:02.301900 [info] : Mysql connect success!
+2025-07-24 11:29:02.302631 [info] : Mysql connect success!
+2025-07-24 11:29:02.303155 [info] : Mysql connect success!
+2025-07-24 11:29:02.303684 [info] : Mysql connect success!
+2025-07-24 11:29:02.304365 [info] : Mysql connect success!
+2025-07-24 11:29:02.305053 [info] : Mysql connect success!
+2025-07-24 11:52:07.292178 [info] : ============== Server Init ==============
+2025-07-24 11:52:07.292193 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-24 11:52:07.292198 [info] : LogSys level: 1
+2025-07-24 11:52:07.292202 [info] : srcDir: (null)
+2025-07-24 11:52:07.292206 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:52:07.295965 [info] : Mysql connect success!
+2025-07-24 11:52:07.296570 [info] : Mysql connect success!
+2025-07-24 11:52:07.297202 [info] : Mysql connect success!
+2025-07-24 11:52:07.297632 [info] : Mysql connect success!
+2025-07-24 11:52:07.298110 [info] : Mysql connect success!
+2025-07-24 11:52:07.298542 [info] : Mysql connect success!
+2025-07-24 11:52:07.298887 [info] : Mysql connect success!
+2025-07-24 11:52:07.299219 [info] : Mysql connect success!
+2025-07-24 11:52:07.299560 [info] : Mysql connect success!
+2025-07-24 11:52:07.300064 [info] : Mysql connect success!
+2025-07-24 11:52:07.300631 [info] : Mysql connect success!
+2025-07-24 11:52:07.301372 [info] : Mysql connect success!
+2025-07-24 11:52:07.301468 [info] : Server port:9006
+2025-07-24 11:52:31.819017 [info] : ============== Server Init ==============
+2025-07-24 11:52:31.819033 [info] : Listen Mode: LT, OpenConn Mode: LT
+2025-07-24 11:52:31.819039 [info] : LogSys level: 1
+2025-07-24 11:52:31.819131 [info] : srcDir: (null)
+2025-07-24 11:52:31.819144 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 11:52:31.823240 [info] : Mysql connect success!
+2025-07-24 11:52:31.824108 [info] : Mysql connect success!
+2025-07-24 11:52:31.824732 [info] : Mysql connect success!
+2025-07-24 11:52:31.825473 [info] : Mysql connect success!
+2025-07-24 11:52:31.825802 [info] : Mysql connect success!
+2025-07-24 11:52:31.826391 [info] : Mysql connect success!
+2025-07-24 11:52:31.826963 [info] : Mysql connect success!
+2025-07-24 11:52:31.827645 [info] : Mysql connect success!
+2025-07-24 11:52:31.828165 [info] : Mysql connect success!
+2025-07-24 11:52:31.828559 [info] : Mysql connect success!
+2025-07-24 11:52:31.829129 [info] : Mysql connect success!
+2025-07-24 12:13:50.593130 [info] : ============== Server Init ==============
+2025-07-24 12:13:50.593146 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-24 12:13:50.593152 [info] : LogSys level: 1
+2025-07-24 12:13:50.593156 [info] : srcDir: (null)
+2025-07-24 12:13:50.593161 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 12:13:50.597279 [info] : Mysql connect success!
+2025-07-24 12:13:50.598051 [info] : Mysql connect success!
+2025-07-24 12:13:50.598834 [info] : Mysql connect success!
+2025-07-24 12:13:50.599533 [info] : Mysql connect success!
+2025-07-24 12:13:50.600054 [info] : Mysql connect success!
+2025-07-24 12:13:50.600563 [info] : Mysql connect success!
+2025-07-24 12:13:50.600932 [info] : Mysql connect success!
+2025-07-24 12:13:50.601311 [info] : Mysql connect success!
+2025-07-24 12:13:50.601679 [info] : Mysql connect success!
+2025-07-24 12:13:50.602057 [info] : Mysql connect success!
+2025-07-24 12:13:50.602460 [info] : Mysql connect success!
+2025-07-24 12:13:50.602901 [info] : Mysql connect success!
+2025-07-24 12:13:50.602937 [info] : Server port:9006
+2025-07-24 12:13:50.602949 [info] : =========== Server start! ==========
+2025-07-24 12:13:54.057825 [info] : Client[18](10.37.187.74:57064) in, userCount:1
+2025-07-24 12:13:54.057934 [info] : Client[18] in!
+2025-07-24 12:13:54.057953 [info] : Client[19](10.37.187.74:57320) in, userCount:2
+2025-07-24 12:13:54.057991 [info] : Client[19] in!
+2025-07-24 12:13:54.341867 [info] : Client[20](10.37.187.74:58088) in, userCount:3
+2025-07-24 12:13:54.341954 [info] : Client[20] in!
+2025-07-24 12:13:54.341967 [info] : Client[21](10.37.187.74:58344) in, userCount:4
+2025-07-24 12:13:54.341975 [info] : Client[21] in!
+2025-07-24 12:13:54.341988 [info] : Client[23](10.37.187.74:58600) in, userCount:5
+2025-07-24 12:13:54.341996 [info] : Client[23] in!
+2025-07-24 12:13:54.671809 [info] : Client[24](10.37.187.74:58856) in, userCount:6
+2025-07-24 12:13:54.671893 [info] : Client[24] in!
+2025-07-24 12:14:54.714815 [info] : Client[23] quit!
+2025-07-24 12:14:54.715041 [info] : Client[23](10.37.187.74:58600) close, userCount:5
+2025-07-24 12:14:54.715060 [info] : Client[20] quit!
+2025-07-24 12:14:54.715081 [info] : Client[20](10.37.187.74:58088) close, userCount:4
+2025-07-24 12:14:54.715086 [info] : Client[21] quit!
+2025-07-24 12:14:54.715107 [info] : Client[21](10.37.187.74:58344) close, userCount:3
+2025-07-24 12:14:54.715112 [info] : Client[18] quit!
+2025-07-24 12:14:54.715135 [info] : Client[18](10.37.187.74:57064) close, userCount:2
+2025-07-24 12:14:54.715148 [info] : Client[24] quit!
+2025-07-24 12:14:54.715163 [info] : Client[24](10.37.187.74:58856) close, userCount:1
+2025-07-24 12:14:54.991595 [info] : Client[19] quit!
+2025-07-24 15:59:22.722151 [info] : ============== Server Init ==============
+2025-07-24 15:59:22.722166 [info] : Listen Mode: ET, OpenConn Mode: LT
+2025-07-24 15:59:22.722171 [info] : LogSys level: 1
+2025-07-24 15:59:22.722237 [info] : srcDir: (null)
+2025-07-24 15:59:22.722244 [info] : SqlConnPool num: 12, ThreadPool num: 8
+2025-07-24 15:59:22.725980 [info] : Mysql connect success!
+2025-07-24 15:59:22.726786 [info] : Mysql connect success!
+2025-07-24 15:59:22.727372 [info] : Mysql connect success!
+2025-07-24 15:59:22.728143 [info] : Mysql connect success!
+2025-07-24 15:59:22.728666 [info] : Mysql connect success!
+2025-07-24 15:59:22.729171 [info] : Mysql connect success!
+2025-07-24 15:59:22.729452 [info] : Mysql connect success!
+2025-07-24 15:59:22.729957 [info] : Mysql connect success!
+2025-07-24 15:59:22.730409 [info] : Mysql connect success!
+2025-07-24 15:59:22.730882 [info] : Mysql connect success!
+2025-07-24 15:59:22.731124 [info] : Mysql connect success!
+2025-07-24 15:59:22.731581 [info] : Mysql connect success!
+2025-07-24 15:59:22.731623 [info] : Server port:9006
+2025-07-24 15:59:22.731638 [info] : =========== Server start! ==========
+2025-07-24 15:59:31.326291 [info] : Client[18](10.37.187.74:44527) in, userCount:1
+2025-07-24 15:59:31.326412 [info] : Client[18] in!
+2025-07-24 15:59:31.326469 [info] : Client[19](10.37.187.74:44271) in, userCount:2
+2025-07-24 15:59:31.326490 [info] : Client[19] in!
+2025-07-24 15:59:31.575383 [info] : Client[20](10.37.187.74:45295) in, userCount:3
+2025-07-24 15:59:31.575470 [info] : Client[20] in!
+2025-07-24 15:59:31.575483 [info] : Client[21](10.37.187.74:45551) in, userCount:4
+2025-07-24 15:59:31.575489 [info] : Client[21] in!
+2025-07-24 15:59:31.577211 [info] : Client[23](10.37.187.74:45807) in, userCount:5
+2025-07-24 15:59:31.577273 [info] : Client[23] in!
+2025-07-24 15:59:31.976386 [info] : Client[24](10.37.187.74:46319) in, userCount:6
+2025-07-24 15:59:31.976461 [info] : Client[24] in!
+2025-07-24 16:00:19.333978 [info] : Verify name = 1, pwd = 1
+2025-07-24 16:00:19.334065 [info] : 开始获取数据库连接
+2025-07-24 16:00:19.334072 [info] : 获取数据库连接完成,sql指针: 0x5572bbcf6300
+2025-07-24 16:00:19.334077 [info] : 数据库连接验证成功
+2025-07-24 16:00:19.347850 [info] : UserVerify success
+2025-07-24 16:00:27.319748 [info] : Verify name = 2, pwd = 2
+2025-07-24 16:00:27.319848 [info] : 开始获取数据库连接
+2025-07-24 16:00:27.319857 [info] : 获取数据库连接完成,sql指针: 0x5572bbd06c80
+2025-07-24 16:00:27.319864 [info] : 数据库连接验证成功
+2025-07-24 16:00:27.320629 [info] : UserVerify success
+2025-07-24 16:00:34.465176 [info] : Verify name = 1, pwd = 1
+2025-07-24 16:00:34.465256 [info] : 开始获取数据库连接
+2025-07-24 16:00:34.465263 [info] : 获取数据库连接完成,sql指针: 0x5572bbd0a0e0
+2025-07-24 16:00:34.465268 [info] : 数据库连接验证成功
+2025-07-24 16:00:34.466050 [info] : UserVerify success
+2025-07-24 16:01:34.679964 [info] : Client[23] quit!
+2025-07-24 16:01:34.680152 [info] : Client[23](10.37.187.74:45807) close, userCount:5
+2025-07-24 16:01:34.680172 [info] : Client[19] quit!
+2025-07-24 16:01:34.680194 [info] : Client[19](10.37.187.74:44271) close, userCount:4
+2025-07-24 16:01:34.680199 [info] : Client[20] quit!
+2025-07-24 16:01:34.680223 [info] : Client[20](10.37.187.74:45295) close, userCount:3
+2025-07-24 16:01:34.680228 [info] : Client[21] quit!
+2025-07-24 16:01:34.680249 [info] : Client[21](10.37.187.74:45551) close, userCount:2
+2025-07-24 16:01:34.680499 [info] : Client[18] quit!
+2025-07-24 16:01:34.680614 [info] : Client[18](10.37.187.74:44527) close, userCount:1
+2025-07-24 16:01:34.680653 [info] : Client[24] quit!
+2025-07-24 16:01:34.680682 [info] : Client[24](10.37.187.74:46319) close, userCount:0
+2025-07-24 16:01:45.534106 [info] : Client[18](10.37.187.74:49903) in, userCount:1
+2025-07-24 16:01:45.534232 [info] : Client[18] in!
+2025-07-24 16:01:45.689867 [info] : Client[19](10.37.187.74:50159) in, userCount:2
+2025-07-24 16:01:45.689952 [info] : Client[19] in!
+2025-07-24 16:01:45.793968 [info] : Client[20](10.37.187.74:50671) in, userCount:3
+2025-07-24 16:01:45.794047 [info] : Client[20] in!
+2025-07-24 16:01:45.794080 [info] : Client[21](10.37.187.74:51183) in, userCount:4
+2025-07-24 16:01:45.794091 [info] : Client[21] in!
+2025-07-24 16:01:45.794103 [info] : Client[23](10.37.187.74:50927) in, userCount:5
+2025-07-24 16:01:45.794122 [info] : Client[23] in!
+2025-07-24 16:01:45.794142 [info] : Client[24](10.37.187.74:51439) in, userCount:6
+2025-07-24 16:01:45.794159 [info] : Client[24] in!
+2025-07-24 16:01:55.338069 [info] : Verify name = 3, pwd = 3
+2025-07-24 16:01:55.338157 [info] : 开始获取数据库连接
+2025-07-24 16:01:55.338164 [info] : 获取数据库连接完成,sql指针: 0x5572bbd15770
+2025-07-24 16:01:55.338168 [info] : 数据库连接验证成功
+2025-07-24 16:01:55.339021 [info] : UserVerify success
+2025-07-24 16:02:55.553268 [info] : Client[20] quit!
+2025-07-24 16:02:55.553476 [info] : Client[20](10.37.187.74:50671) close, userCount:5
+2025-07-24 16:02:55.553499 [info] : Client[21] quit!
+2025-07-24 16:02:55.553532 [info] : Client[21](10.37.187.74:51183) close, userCount:4
+2025-07-24 16:02:55.553538 [info] : Client[23] quit!
+2025-07-24 16:02:55.553567 [info] : Client[23](10.37.187.74:50927) close, userCount:3
+2025-07-24 16:02:55.553583 [info] : Client[24] quit!
+2025-07-24 16:02:55.553620 [info] : Client[24](10.37.187.74:51439) close, userCount:2
+2025-07-24 16:02:55.553626 [info] : Client[18] quit!
+2025-07-24 16:02:55.553647 [info] : Client[18](10.37.187.74:49903) close, userCount:1
+2025-07-24 16:02:55.553652 [info] : Client[19] quit!
+2025-07-24 16:02:55.553671 [info] : Client[19](10.37.187.74:50159) close, userCount:0
+2025-07-24 16:03:01.933841 [info] : Client[18](10.37.187.74:53487) in, userCount:1
+2025-07-24 16:03:01.933966 [info] : Client[18] in!
+2025-07-24 16:03:02.093814 [info] : Client[19](10.37.187.74:53743) in, userCount:2
+2025-07-24 16:03:02.093887 [info] : Client[19] in!
+2025-07-24 16:03:02.197767 [info] : Client[20](10.37.187.74:54255) in, userCount:3
+2025-07-24 16:03:02.197830 [info] : Client[20] in!
+2025-07-24 16:03:02.200049 [info] : Client[21](10.37.187.74:54767) in, userCount:4
+2025-07-24 16:03:02.200108 [info] : Client[21] in!
+2025-07-24 16:03:02.200120 [info] : Client[23](10.37.187.74:55023) in, userCount:5
+2025-07-24 16:03:02.200128 [info] : Client[23] in!
+2025-07-24 16:03:02.200138 [info] : Client[24](10.37.187.74:54511) in, userCount:6
+2025-07-24 16:03:02.200145 [info] : Client[24] in!
+2025-07-24 16:03:07.059463 [info] : Verify name = 1, pwd = 2
+2025-07-24 16:03:07.059553 [info] : 开始获取数据库连接
+2025-07-24 16:03:07.059560 [info] : 获取数据库连接完成,sql指针: 0x5572bbd1cce0
+2025-07-24 16:03:07.059565 [info] : 数据库连接验证成功
+2025-07-24 16:03:07.060479 [info] : Password is not correct
+2025-07-24 16:03:07.060538 [info] : UserVerify success
+2025-07-24 16:04:07.258966 [info] : Client[20] quit!
+2025-07-24 16:04:07.259134 [info] : Client[20](10.37.187.74:54255) close, userCount:5
+2025-07-24 16:04:07.259154 [info] : Client[21] quit!
+2025-07-24 16:04:07.259178 [info] : Client[21](10.37.187.74:54767) close, userCount:4
+2025-07-24 16:04:07.259191 [info] : Client[23] quit!
+2025-07-24 16:04:07.259225 [info] : Client[23](10.37.187.74:55023) close, userCount:3
+2025-07-24 16:04:07.259238 [info] : Client[24] quit!
+2025-07-24 16:04:07.259257 [info] : Client[24](10.37.187.74:54511) close, userCount:2
+2025-07-24 16:04:07.259261 [info] : Client[18] quit!
+2025-07-24 16:04:07.259277 [info] : Client[18](10.37.187.74:53487) close, userCount:1
+2025-07-24 16:04:07.259282 [info] : Client[19] quit!
+2025-07-24 16:04:07.259298 [info] : Client[19](10.37.187.74:53743) close, userCount:0
+2025-07-24 16:04:27.895848 [info] : Client[18](10.37.187.74:57327) in, userCount:1
+2025-07-24 16:04:27.895957 [info] : Client[18] in!
+2025-07-24 16:04:28.022801 [info] : Client[19](10.37.187.74:57583) in, userCount:2
+2025-07-24 16:04:28.022865 [info] : Client[19] in!
+2025-07-24 16:04:28.122876 [info] : Client[20](10.37.187.74:58095) in, userCount:3
+2025-07-24 16:04:28.122961 [info] : Client[20] in!
+2025-07-24 16:04:28.122978 [info] : Client[21](10.37.187.74:58863) in, userCount:4
+2025-07-24 16:04:28.122987 [info] : Client[21] in!
+2025-07-24 16:04:28.122998 [info] : Client[23](10.37.187.74:58351) in, userCount:5
+2025-07-24 16:04:28.123011 [info] : Client[23] in!
